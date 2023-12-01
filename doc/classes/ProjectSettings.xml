@@ -549,16 +549,8 @@
 		<member name="editor/version_control_plugin_name" type="String" setter="" getter="" default="&quot;&quot;">
 			Last loaded VCS plugin name. Used to autoload the plugin when the editor starts up.
 		</member>
-		<member name="gui/scroll/default_scroll_deadzone" type="int" setter="" getter="" default="0">
+		<member name="gui/common/default_scroll_deadzone" type="int" setter="" getter="" default="0">
 			Default value for [member ScrollContainer.scroll_deadzone], which will be used for all [ScrollContainer]s unless overridden.
-		</member>
-		<member name="gui/scroll/default_scroll_smoothed" type="bool" setter="" getter="" default="false">
-		</member>
-		<member name="gui/scroll/default_scroll_step" type="float" setter="" getter="" default="0.125">
-		</member>
-		<member name="gui/scroll/inertial_scroll_duration_touch" type="float" setter="" getter="" default="1.5">
-		</member>
-		<member name="gui/scroll/smooth_scroll_duration_button" type="float" setter="" getter="" default="0.15">
 		</member>
 		<member name="gui/common/drop_mouse_on_gui_input_disabled" type="bool" setter="" getter="" default="false">
 			If enabled, the moment [member Viewport.gui_disable_input] is set to [code]false[/code] to disable GUI input in a viewport, current mouse over and mouse focus will be dropped.
